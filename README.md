@@ -4,45 +4,34 @@
 
 <br />
 
-<h1>Project Title</h1>
+<h1>CDS Template</h1>
 
 <p>
-Project one-liner description
+Template for the Clinical Dataset Structure (CDS)
 </p>
 
 <br />
 
 <p>
-  <a href="https://github.com/AI-READI/template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/AI-READI/template.svg?style=flat-square" alt="contributors" />
+  <a href="https://github.com/AI-READI/cds-template/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/AI-READI/cds-template.svg?style=flat-square" alt="contributors" />
   </a>
-  <a href="https://github.com/AI-READI/template/stargazers">
-    <img src="https://img.shields.io/github/stars/AI-READI/template.svg?style=flat-square" alt="stars" />
+  <a href="https://github.com/AI-READI/cds-template/stargazers">
+    <img src="https://img.shields.io/github/stars/AI-READI/cds-template.svg?style=flat-square" alt="stars" />
   </a>
-  <a href="https://github.com/AI-READI/template/issues/">
-    <img src="https://img.shields.io/github/issues/AI-READI/template.svg?style=flat-square" alt="open issues" />
+  <a href="https://github.com/AI-READI/cds-template/issues/">
+    <img src="https://img.shields.io/github/issues/AI-READI/cds-template.svg?style=flat-square" alt="open issues" />
   </a>
-  <a href="https://github.com/AI-READI/template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/AI-READI/template.svg?style=flat-square" alt="license" />
+  <a href="https://github.com/AI-READI/cds-template/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="license" />
   </a>
   <a href="https://doi.org/10.5281/zenodo.6407300">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
   </a>
-  <a href="https://fairdataihub.org/fairshare">
-    <img src="https://raw.githubusercontent.com/fairdataihub/FAIRshare/main/badge.svg" alt="Curated with FAIRshare" />
-  </a>
 </p>
    
 <h4>
-    <a href="#">Sublink 1</a>
-  <span> · </span>
-    <a href="#">Documentation</a>
-  <span> · </span>
-    <a href="#">Changelog</a>
-  <span> · </span>
-    <a href="https://github.com/AI-READI/template/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="#">Request Feature</a>
+    <a href="https://github.com/AI-READI/cds-template/issues/">Report Issues/Make suggestions</a>
   </h4>
 </div>
 
@@ -50,62 +39,45 @@ Project one-liner description
 
 ---
 
-## Description
+## About
 
-Add a description of your project here. This is template repository for the AI-READI project to help start with our [best practices](https://github.com/AI-READI/software-development-best-practices)
+This repository is meant to maintain a template for the [Clinical Dataset Structure](https://github.com/AI-READI/cds-specification).
 
-## Getting started
 
-### Prerequisites/Dependencies
-
-- Describe any prerequisites, libraries, OS version, etc., needed before installing your application.
-
-### Installing
-
-- Describe the installation process. Include code snippets and screenshots if needed. You can also add environment generation installation in here as well.
-
-### Inputs and Outputs
-
-- Describe the inputs and outputs of your application. Include code snippets and screenshots if needed.
+## Structure of this repository
+Each version of the CDS template are stored in a dedicated folder under the `versions` folder. An assessment of the compliance of the CSD with the relevant FAIR principles is also included with each version. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the CDS template, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. In addition, a GitHub release willl be made with a zip of the new template. This zip will be also archived on Zenodo. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file.
 
 ## Contributing
 
-<a href="https://github.com/AI-READI/template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AI-READI/template" />
+<a href="https://github.com/AI-READI/cds-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AI-READI/cds-template" />
 </a>
 
 Contributions are always welcome!
 
-If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
-
-For any developmental standards to follow, add them directly to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## Issues and Feedback
-
-To report any issues with the software, suggest improvements, or request a new feature, please open a new issue via the [Issues](https://github.com/AI-READI/template/issues) tab. Provide adequate information (operating system, steps leading to error, screenshots) so we can help you efficiently.
+Use the [GitHub issues](https://github.com/AI-READI/cds-template/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version of the CDS template or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested). 
 
 ## License
 
-This work is licensed under
-[MIT](https://opensource.org/licenses/mit). See [LICENSE](https://github.com/AI-READI/template/blob/main/LICENSE) for more information.
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by]. See [LICENSE](LICENSE.txt) for more information.
 
-<a href="https://aireadi.org" >
-  <img src="https://www.channelfutures.com/files/2017/04/3_0.png" height="30" />
-</a>
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[![CC BY 4.0][cc-by-image]][cc-by]
+
 
 ## How to cite
 
-If you are using this software or reusing the source code from this repository for any purpose, please cite:
+If you are using the CDS template or any of the associated effort, please cite:
 
 ```bash
-    ADD Citation here
+    Coming soon
 ```
 
 ## Acknowledgements
 
 This project is funded by the NIH under award number 1OT2OD032644. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
-
-Add any other acknowledgements here.
 
 <br />
 
