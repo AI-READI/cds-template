@@ -1,0 +1,5 @@
+participant_id	group	activity_monitor	clinical_data	continuous_glucose_monitoring	ekg	environmental_sensor_measurements	eye_fundus_photography	flio	oct	octa
+2354	no_diabetes	TRUE	TRUE	TRUE	TRUE	FALSE	TRUE	TRUE	TRUE	TRUE
+1457	lifestyle_controlled_diabetes	TRUE	TRUE	FALSE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+25	oral_medication_controlled_diabetes	FALSE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
+574	insulin_dependent_diabetes	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE
