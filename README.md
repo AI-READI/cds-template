@@ -25,9 +25,6 @@ Template for the Clinical Dataset Structure (CDS)
   <a href="https://github.com/AI-READI/cds-template/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="license" />
   </a>
-  <a href="https://doi.org/10.5281/zenodo.6407300">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
-  </a>
 </p>
    
 <h4>
