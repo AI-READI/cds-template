@@ -3,7 +3,7 @@
 
 
 ## Identifier
-https://doi.org/10.5281/zenodo.7641684
+https://doi.org/10.5281/fairhub.7641684
 
 ## Current version number
 v.1.0.0
